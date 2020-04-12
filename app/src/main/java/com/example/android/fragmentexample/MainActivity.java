@@ -1,5 +1,6 @@
 package com.example.android.fragmentexample;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
@@ -40,6 +41,18 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     closeFragment();
                 }
+            }
+        });
+
+        configureNextButton();
+    }
+
+    private void configureNextButton() {
+        Button nextButton = (Button) findViewById(R.id.nextButton);
+        nextButton.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(MainActivity.this, SecondActivity.class));
             }
         });
     }

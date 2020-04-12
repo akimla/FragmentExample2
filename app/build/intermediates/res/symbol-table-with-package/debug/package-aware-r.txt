@@ -696,6 +696,7 @@ id message
 id middle
 id multiply
 id never
+id nextButton
 id none
 id normal
 id notification_background
@@ -705,6 +706,7 @@ id open_button
 id packed
 id parent
 id parentPanel
+id prevButton
 id progress_circular
 id progress_horizontal
 id radio
@@ -718,6 +720,7 @@ id screen
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollView2
 id search_badge
 id search_bar
 id search_button
@@ -793,6 +796,7 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout activity_main
+layout activity_second
 layout fragment_simple
 layout notification_action
 layout notification_action_tombstone
@@ -853,10 +857,12 @@ string article2
 string close
 string exception_message
 string my_rating
+string next
 string no
 string no_message
 string no_message2
 string open
+string previous_activity
 string question_article
 string question_the_song
 string search_menu_title
